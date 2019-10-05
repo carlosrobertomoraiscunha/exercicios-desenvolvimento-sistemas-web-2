@@ -2,7 +2,7 @@
 
 **Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco**  
 **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas  
-**Professor:** [Paulo Maurício Gonçalves Júnior](http://lattes.cnpq.br/4216288704867694)  
+**Professor:** [Paulo Maurício Gonçalves Júnior](https://sites.google.com/site/paulomgj)  
 **Aluno:** [Carlos Roberto Morais Cunha](https://www.linkedin.com/in/carlos-roberto-morais-cunha/)
 
 1. Crie uma página que imprima uma tabela de conversão Celsius Fahrenheit entre – 40 e 100 graus Celsius com incrementos de 10 em 10. A fórmula para conversão é F = (9/5)*C + 32. Altere-o de forma que a tela apresente um campo numérico para a entrada de um valor em Celsius em um formulário que envie dados utilizando o método POST.
