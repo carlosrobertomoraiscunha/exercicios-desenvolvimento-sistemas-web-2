@@ -1,5 +1,10 @@
 # Lista de Exercicícios (Desenvolvimento de Sistemas Web 2)
 
+**Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco**  
+**Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas  
+**Professor:** [Paulo Maurício Gonçalves Júnior](http://lattes.cnpq.br/4216288704867694)  
+**Aluno:** [Carlos Roberto Morais Cunha](https://www.linkedin.com/in/carlos-roberto-morais-cunha/)
+
 1. Crie uma página que imprima uma tabela de conversão Celsius Fahrenheit entre – 40 e 100 graus Celsius com incrementos de 10 em 10. A fórmula para conversão é F = (9/5)*C + 32. Altere-o de forma que a tela apresente um campo numérico para a entrada de um valor em Celsius em um formulário que envie dados utilizando o método POST.
 
 2. Implementar uma página que apresente a tabuada. Dois campos numéricos serão criados em HTML, um para representar o início e outro o fim da tabuada. Abaixo dos campos será apresentada uma tabela com a tabuada dos números informados. Realizar validação do valor digitado pelo usuário em JavaScript antes da submissão ao servidor. Verificar se o usuário digitou alguma coisa e se o que ele digitou é um inteiro ou não. Caso tenha acontecido algum problema na entrada de dados, informar ao usuário escrevendo a mensagem na tela (sem utilizar uma janela de alerta) e recolocando o foco no campo de entrada.
@@ -9,7 +14,7 @@
     (a) calculará a numerologia do nome completo de uma pessoa. Cada letra possui um código obtido através da Tabela Pitagórica, como apresentado abaixo:
 
     | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-    |---|---|---|---|---|---|---|---|---|
+    |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
     | A | B | C | D | E | F | G | H | I |
     | J | K | L | M | N | O | P | Q | R |
     | S | T | U | V | W | X | Y | Z |
