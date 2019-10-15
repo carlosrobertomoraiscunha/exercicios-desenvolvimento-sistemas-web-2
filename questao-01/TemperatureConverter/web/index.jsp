@@ -52,12 +52,11 @@
                 </c:if>
 
                 <div class="table-responsive col-6 mx-auto text-center">
-                    <table class="table table-hover table-bordered text-white">
-                        <tr class="bg-info">
-                            <th scope="col">Celsius</th>
-                            <th scope="col">Fahrenheit</th>
+                    <table class="table text-white">
+                        <tr>
+                            <th class="text-primary">Celsius</th>
+                            <th class="text-primary">Fahrenheit</th>
                         </tr>
-
                         <mine:simpleFor start="-40" end="100" step="10" var="temp">
                             <tr>
                                 <td><c:out value="${temp}" /></td>
