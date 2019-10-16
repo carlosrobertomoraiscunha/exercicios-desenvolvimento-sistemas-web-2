@@ -1,0 +1,12 @@
+/* 
+    Created on : 13/10/2019, 16:50:26
+    Author     : Carlos
+*/
+
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
