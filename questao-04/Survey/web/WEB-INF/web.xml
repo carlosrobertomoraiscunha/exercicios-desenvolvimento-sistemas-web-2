@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>disciplines</param-name>
+        <param-value>Desenvolvimento de Sistemas Web 2,Gerência de Configuração e Mudança de Software,Metodologia Científica Aplicada,Padrões de Projetos de Software Orientado a Objetos,Processo de Desenvolvimento de Software,Sistemas Distribuídos,Sistemas Operacionais</param-value>
+    </context-param>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>listeners.ContexttListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>VoteCounting</servlet-name>
+        <servlet-class>servlets.VoteCounting</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VoteCounting</servlet-name>
+        <url-pattern>/VoteCounting</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
