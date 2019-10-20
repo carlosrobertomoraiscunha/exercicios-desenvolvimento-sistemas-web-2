@@ -5,6 +5,18 @@
 **Professor:** [Paulo Maurício Gonçalves Júnior](https://sites.google.com/site/paulomgj)  
 **Aluno:** [Carlos Roberto Morais Cunha](https://www.linkedin.com/in/carlos-roberto-morais-cunha/)
 
+---
+
+**Observações**
+
+- Todos os exercícios abaixo foram feitos utilizando a [IDE NetBeans 8.2](https://netbeans.org/downloads/8.2/) e o [Java SE Development Kit 8](https://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html).
+
+- Todos os comentários no código estão em português e sem acento, enquanto as variáveis e funções estão em inglês.
+
+- A apresentação visual foi feita utilizando o framework [Bootstrap](https://getbootstrap.com/), e está em português.
+
+---
+
 1. Crie uma página que imprima uma tabela de conversão Celsius Fahrenheit entre – 40 e 100 graus Celsius com incrementos de 10 em 10. A fórmula para conversão é F = (9/5)*C + 32. Altere-o de forma que a tela apresente um campo numérico para a entrada de um valor em Celsius em um formulário que envie dados utilizando o método POST.
 
 2. Implementar uma página que apresente a tabuada. Dois campos numéricos serão criados em HTML, um para representar o início e outro o fim da tabuada. Abaixo dos campos será apresentada uma tabela com a tabuada dos números informados. Realizar validação do valor digitado pelo usuário em JavaScript antes da submissão ao servidor. Verificar se o usuário digitou alguma coisa e se o que ele digitou é um inteiro ou não. Caso tenha acontecido algum problema na entrada de dados, informar ao usuário escrevendo a mensagem na tela (sem utilizar uma janela de alerta) e recolocando o foco no campo de entrada.
