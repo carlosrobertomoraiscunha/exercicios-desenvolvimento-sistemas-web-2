@@ -81,11 +81,10 @@ public class VoteCounting extends HttpServlet {
     /**
      * Verifica se uma disciplinas esta dentro de uma lista de disciplinas
      * validas
-     * 
+     *
      * @param discipline uma disciplina qualquer
      * @param disciplines um array de disciplinas validas
-     * @return true se a disciplina for valida
-     *         false caso nao
+     * @return true se a disciplina for valida false caso nao
      */
     private boolean isDiscipline(String discipline, String[] disciplines) {
         for (String d : disciplines) {

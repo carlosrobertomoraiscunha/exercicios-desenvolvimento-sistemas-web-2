@@ -33,7 +33,16 @@
                         <tr>
                             <td>${vote.key}</td>
                             <td>${vote.value}</td>
-                            <td><meter value="${percent}" min="0" max="1"></meter> <fmt:formatNumber maxFractionDigits="2" type="percent" value="${percent}"/></td>
+                            <td><meter value="${percent}" min="0" max="1"></meter>
+                                    <c:choose>
+                                        <c:when test="${percent != Double.NaN}">
+                                            <fmt:formatNumber maxFractionDigits="2" type="percent" value="${percent}"/>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <fmt:formatNumber maxFractionDigits="2" type="percent" value="0"/>
+                                        </c:otherwise>
+                                    </c:choose>
+                            </td>
                         </tr>
                     </c:forEach>
                     <tr>

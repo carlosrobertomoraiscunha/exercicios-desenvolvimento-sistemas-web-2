@@ -117,7 +117,6 @@ public class NumerologyCalculator extends HttpServlet {
         int sum = 0;
 
         for (char c : name.replace(" ", "").toLowerCase().toCharArray()) {
-            System.out.println(c);
             sum += pythagoreanTable.get(c);
         }
 
