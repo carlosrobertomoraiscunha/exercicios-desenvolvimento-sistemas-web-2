@@ -44,37 +44,3 @@
 4. Criar uma página que implemente uma enquete sobre a disciplina favorita dos alunos do 4o período. A página da enquete deve apresentar a lista de disciplinas onde o aluno deverá escolher uma única disciplina. O aluno poderá votar em uma disciplina ou ver o resultado parcial até o momento. Ao votar, uma nova página será aberta com o resultado parcial informando a quantidade total de votos, a quantidade de votos recebida por cada disciplina até o momento, o percentual de votos de cada disciplina e uma barra horizontal indicando graficamente o percentual de votos.
 
 5. Criar uma página para calcular o valor futuro de um investimento baseado no montante inicial, taxa de juros mensal, tempo do investimento em meses e aportes mensais. Após receber os dados do usuário, criar uma tabela com quatro colunas: tempo, aporte, juros e montante. Para cada intervalo de tempo, informar o mês corrente, o valor do aporte, o valor dos juros aplicados ao montante e o montante corrente. Na última linha informar a soma de todos os aportes realizados, o total de juros obtidos e o valor final do investimento.
-
-6. Criar uma página que realize o cadastramento das informações de funcionários de uma empresa. Cada funcionário será representado pelo nome, data de nascimento e salário. A tela principal deverá apresentar uma tabela com as informações de todos os funcionários cadastrados até o momento, apresentando uma mensagem caso não existam funcionários cadastrados. Um botão de inserção de novos funcionários deve aparecer ao lado do cabeçalho da tabela. Ao clicar neste botão, uma página será aberta com as três informações de um funcionário a serem digitadas. Considere as seguintes restrições aos dados dos funcionários:
-
-    a) O nome deve conter, no mínimo, três caracteres;  
-    b) Nenhum funcionário pode ter menos que 18 anos ou mais que 70 anos;  
-    c) Nenhum funcionário pode ganhar menos que um salário mínimo.
-
-    Caso alguma das restrições não seja satisfeita, uma mensagem deve aparecer ao lado do campo com erro. Ao inserir um funcionário, deverá se retornar à página principal. Ao lado do nome da cada funcionário, deverão aparecer dois botões: um para alterar e outro para remover o respectivo funcionário.
-
-7. Implementar uma página em JSP que apresente o calendário a partir de um ano especificado pelo usuário. Pontuação:
-
-    (a) Página implementada, apresentando todos os meses do ano em tabelas.  
-    (b) Os domingos e feriados devem estar em vermelho.  
-    (c) Criar uma lista de feriados fixos (01/01, 21/04, 01/05, 07/09, etc.) e apresentá-los nos dias
-    respectivos juntamente com uma descrição do feriado através do atributo title.  
-    (d) Criar uma lista de feriados móveis (carnaval, páscoa e corpus christi) e apresentá-los nos dias
-    respectivos juntamente com uma descrição do feriado através do atributo title.  
-
-8. O conceito de amortização é o processo de extinção de uma dívida através de pagamentos periódicos, que são realizados em função de um planejamento, de modo que cada prestação corresponde a soma do reembolso do capital ou dos juros do saldo devedor (juros sempre são calculados sobre o saldo devedor), podendo ainda ser o reembolso de ambos. Alguns dos principais sistemas de amortização são:
-
-    - Sistema de pagamento único: ocorre um único pagamento (capital + juros) no final do período estipulado;
-    - Sistema americano: ocorre um único pagamento ao final do período, porém os juros são calculados em várias fases durante o período;
-    - Sistema de amortização constante (SAC): geralmente o mais utilizado, os juros e o
-    capital são calculados uma única vez e divididos para o pagamento em várias parcelas durante o período;
-    - Sistema price ou francês: geralmente usados em financiamentos de bens de consumo, todas as parcelas são iguais e com os juros já embutidos;
-    - Sistema de amortização misto: calcula-se o financiamento pelos métodos SAC e price e faz-se uma média aritmética das prestações desses dois sistemas, chegando ao valor da prestação do sistema misto.
-
-    Criar uma página para implementar os sistemas de amortização apresentados acima, recebendo como entrada os seguintes valores: sistema de amortização, valor do financiamento, número de meses e taxa de juros. Como saída, deverá ser gerado uma tabela com informações sobre os meses, valor dos pagamento efetuados até o momento, valor de juros pagos, amortização do saldo devedor, e por fim o saldo devedor. Por fim, mostrar o valor total gasto em cada um dos valores anteriores. Um exemplo pode ser obtido em http://fazaconta.com/amortizacao.htm.
-
-9. Escreva dois RequestWrappers que encapsulam HttpServletRequest e sobrepõem o método getParameter():
-
-    - Use o primeiro em um filtro chamado UpperCaseFilter, que coloque os valores de todos os parâmetros em caixa alta.
-    - O segundo, ReverseFilter, deve inverter o texto dos parâmetros.
-    - Coloque os dois em cascata apontando para um servlet simples.
